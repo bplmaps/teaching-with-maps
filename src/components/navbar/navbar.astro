@@ -1,0 +1,79 @@
+---
+import Container from "@components/container.astro";
+import Link from "@components/ui/link.astro";
+import Dropdown from "./dropdown.astro";
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+
+import { getCollection } from "astro:content";
+const collectionGroupRecords = await getCollection("collection-group");
+
+import instanceVariables from "instance.json";
+
+const menuitems = [
+  {
+    title: "Collection Groups",
+    path: "/collection-group",
+    children: collectionGroupRecords.map((r) => {
+      return { title: r.data.title, slug: r.id };
+    }),
+  },
+  {
+    title: "Lessons and Articles",
+    path: "/discover",
+  },
+  {
+    title: "Apply for the Institute",
+    path: "/apply",
+  },
+];
+---
+<Container>
+  <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+    <Astronav>
+      <div class="flex w-full lg:w-auto items-center justify-between">
+        <a href="/" class="max-w-xs text-lg font-semibold font-serif"
+          >{instanceVariables.projectTitle}
+        </a>
+        <div class="block lg:hidden">
+          <MenuIcon class="w-4 h-4 text-gray-800" />
+        </div>
+      </div>
+      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
+        <ul class="flex flex-col lg:flex-row lg:gap-3">
+          {
+            menuitems.map((item, index) => (
+              <>
+                {item.children && (
+                  <Dropdown
+                    path={item.path}
+                    title={item.title}
+                    children={item.children}
+                    lastItem={index === menuitems.length - 1}
+                  />
+                )}
+
+                {!item.children && (
+                  <li>
+                    <a
+                      href={item.path}
+                      class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900">
+                      {item.title}
+                    </a>
+                  </li>
+                )}
+              </>
+            ))
+          }
+        </ul>
+      </MenuItems>
+    </Astronav>
+    <!-- SEARCH TO BE ADDED LATER -->
+    <!-- ------------------------ -->
+    <!-- <div>
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="#">Search</a>
+      </div>
+    </div> -->
+  </header>
+</Container>
+
