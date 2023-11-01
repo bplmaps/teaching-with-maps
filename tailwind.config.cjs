@@ -5,9 +5,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ["henderson-slab-basic", ...defaultTheme.fontFamily.serif],
-        sans: ["henderson-sans-basic", ...defaultTheme.fontFamily.sans],
+        serif: ["dashiell-bright", ...defaultTheme.fontFamily.serif],
+        sans: ["tenon", ...defaultTheme.fontFamily.sans],
       },
+      brightness: {
+        25: '.25',
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],
