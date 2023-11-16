@@ -1,19 +1,52 @@
-<footer class="my-20">
-  <p class="text-center text-sm text-slate-500">
-    Leventhal Map & Education Center at the Boston Public Library
-  </p>
-  <!--
-    Can we ask you a favor 🙏
-    Please keep this backlink on your website if possible.
-    or Purchase a commercial license from https://web3templates.com
-  -->
-  <p class="text-center text-xs text-slate-500 mt-1">
-    Built from a template by <a
-      href="https://web3templates.com"
-      target="_blank"
-      rel="noopener"
-      class="hover:underline">
-      Web3Templates
-    </a>
-  </p>
+---
+import { Image } from "@astrojs/image/components";
+import lmecLogo from "../assets/LMEC-logo-med.png";
+import omlLogo from "@assets/OML-logo.png"
+import nehLogo from "@assets/NEH-Preferred-Seal820.jpg";
+---
+
+<footer class="my-20 border-t">
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+          <dt class="text-base leading-7 text-gray-600">
+            <a href="https://leventhalmap.org">
+              <Image
+                src={lmecLogo}
+                alt="Leventhal Map and Education Center logo"
+              />
+            </a>
+          </dt>
+        </div>
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+          <dt class="text-base leading-7 text-gray-600">
+            <a href="https://oshermaps.org">
+              <Image
+                src={omlLogo}
+                alt="Osher Map Library logo"
+              />
+            </a>
+          </dt>
+        </div>
+        <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+          <dt class="text-base leading-7 text-gray-600"><a href="https://neh.gov">
+            <Image
+              src={nehLogo}
+              alt="National Endowment for the Humanities Logo"
+            />
+          </a></dt>
+
+        </div>
+      </dl>
+    </div>
+
+
+  </div>
+
+  <div class="px-24 text-gray-500">
+    <p>Teaching with Maps: Community and Resilience in Maritime New England has been made possible in part by a major grant from the National Endowment for the Humanities. Democracy Demands Wisdom.</p>
+    <p>Any views, findings, conclusions, or recommendations expressed in this web resource do not necessarily represent those of the National Endowment for the Humanities. </p>
+  </div>
+
 </footer>
