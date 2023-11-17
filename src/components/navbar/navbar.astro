@@ -10,17 +10,7 @@ const collectionGroupRecords = await getCollection("collection-group");
 import instanceVariables from "instance.json";
 
 const menuitems = [
-  {
-    title: "Collection Groups",
-    path: "/collection-group",
-    children: collectionGroupRecords.map((r) => {
-      return { title: r.data.title, slug: r.id };
-    }),
-  },
-  {
-    title: "Lessons and Articles",
-    path: "/discover",
-  },
+
   {
     title: "About the Institute",
     path: "/about-institute",
@@ -29,6 +19,18 @@ const menuitems = [
     title: "Apply",
     path: "/apply",
   },
+  {
+    title: "Lessons and Articles",
+    path: "/discover",
+  },
+  {
+    title: "Collection Groups",
+    path: "/collection-group",
+    children: collectionGroupRecords.map((r) => {
+      return { title: r.data.title, slug: r.id };
+    }),
+  },
+
 ];
 ---
 <Container>
@@ -37,7 +39,7 @@ const menuitems = [
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="max-w-xs text-2xl font-semibold font-serif"
           >{instanceVariables.projectTitle}<br>
-          <span class="font-medium italic text-md">{instanceVariables.projectSubtitle}</span>
+          <span class="font-medium italic text-md text-xl">{instanceVariables.projectSubtitle}</span>
         </a>
 
         <div class="block lg:hidden">

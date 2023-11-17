@@ -7,7 +7,10 @@ import ItemCard from "@components/itemCard/itemCard.astro"
 import { getCollection } from "astro:content";
 const collection = await getCollection("collection-group");
 ---
+<h2 class="text-2xl">Collection Groups will be available in advance of the workshop.</h2>
+
 <CardGrid>
+
   {
     collection.map((collectionGroup) => (
     <CollectionCard

@@ -3,7 +3,7 @@ title: About the Institute
 layout: "../layouts/SingletonLayout.astro"
 ---
 
-Using historic and contemporary maps in the collections of the Osher Map Library and Smith Center for Cartographic Education (University of Southern Maine) and the Leventhal Map and Education Center (Boston Public Library) as a starting point, participants will explore how both maps and landscapes reflect, erase, obscure, and celebrate Black and Indigenous geographies and histories along New England’s maritime coast. Through deep, critical work with maps, guided museum explorations and learning journeys in rural and urban landscapes, scholar talks and creative workshops, and critical readings and discussions, participants will consider and reflect upon representations of community and resilience in maritime New England, and bring new ways of looking through maps back to their own classrooms and local landscapes.
+Using historic and contemporary maps in the collections of the [Osher Map Library and Smith Center for Cartographic Education](https://oshermaps.org) (University of Southern Maine) and the [Leventhal Map and Education Center](https://leventhalmap.org) (Boston Public Library) as a starting point, participants will explore how both maps and landscapes reflect, erase, obscure, and celebrate Black and Indigenous geographies and histories along New England’s maritime coast. Through deep, critical work with maps, guided museum explorations and learning journeys in rural and urban landscapes, scholar talks and creative workshops, and critical readings and discussions, participants will consider and reflect upon representations of community and resilience in maritime New England, and bring new ways of looking through maps back to their own classrooms and local landscapes.
 
 The Osher Map Library and Leventhal Map and Education Center will welcome 25 educators (grades 3-12) to Portland, Maine, and Boston, Massachusetts, from July 14th to July 26th, 2024. Institute participants will begin the Institute at the University of Southern Maine in Portland, and then travel to Boston for the second half of the institute, with significant additional time spent on Maine’s Schoodic Peninsula; Bath, Maine; Portsmouth, New Hampshire; and New Bedford, Massachusetts. 
 
@@ -74,19 +74,9 @@ Project teams must not reduce participant stipends for project-related activitie
 
 Applicants who accept an offer to participate are expected to remain during the entire period of the program and to participate in its work on a full-time basis. If a participant is obliged through special circumstances to arrive after the beginning or depart before the end of the Institutes or Landmarks program, it shall be the recipient institution's responsibility to see that only a pro rata share of the stipend is received or that the appropriate pro rata share of the stipend is returned if the participant has already received the full stipend. 
 
-Residential & Combined 
-1 Week $1,300 
-2 Weeks $2,200 
-3 Weeks $2,850 
-4 Weeks $3,450 
+**For this 2-week workshop, participants receive a $2,200 stipend.**
 
-Virtual
-1 Week $650
-2 Weeks $1100
-3 Weeks $1425
-4 Weeks $1475
-
-##### Participant Evaluations
+#### Participant Evaluations
 
 The NEH requires project directors to collect anonymous participant evaluations at the conclusion of their programs. Unedited participant evaluation responses will be included in the project’s final report to the NEH and any future Institutes or Landmarks applications. 
 
@@ -108,6 +98,3 @@ Seminar, Institute, and Landmarks presentations and discussions should be:
 
 NEH welcomes comments, concerns, or suggestions on these principles at questions@neh.gov. 
 
-Participant Evaluations: The NEH requires project directors to collect anonymous participant evaluations at the conclusion of their programs. Unedited participant evaluation responses will be included in the project’s final report to the NEH and any future Institutes or Landmarks applications. 
-
-Continuing Education, In-Service, and Graduate Credits for K-12 Programs: Project teams may opt to offer continuing education, in-service, or graduate credit. These opportunities sometimes require additional work by participants beyond the program, such as writing a research paper, and participants are responsible for associated costs or fees unless otherwise noted. See individual project websites for additional information. 
