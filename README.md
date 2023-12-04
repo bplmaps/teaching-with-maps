@@ -1,3 +1,3 @@
-# Lane-Mead Portal
+# Teaching With Maps website
 
-Deployed for dev testing at: https://lane-mead-portal-dev.netlify.app
+Astro-generated static site for the 2024 NEH Teaching With Maps K-12 Institute
